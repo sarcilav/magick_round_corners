@@ -1,4 +1,4 @@
-# Magick Round Corners
+# Magick Round Corners [![Code Climate](https://codeclimate.com/github/sarcilav/magick_round_corners.png)](https://codeclimate.com/github/sarcilav/magick_round_corners)
 
 This is a simple ruby gem that adds the instance method `round_corners`
 transformation to `Magick::Image` class.
@@ -44,6 +44,6 @@ To generate
     :005 > rounded_corners_image.write('output.png')
         => sample.png=>output.png PNG 300x300 300x300+0+0 DirectClass 8-bit 
         
-# Frienly reminder
+# Friendly reminder
 
 When saving/writing out your rounded images, **use** an extension that supports **transparencies** (a.k.a this will not generate rounded jpg images)

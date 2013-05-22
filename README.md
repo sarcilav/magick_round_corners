@@ -1,4 +1,5 @@
-# Magick Round Corners [![Code Climate](https://codeclimate.com/github/sarcilav/magick_round_corners.png)](https://codeclimate.com/github/sarcilav/magick_round_corners)
+# Magick Round Corners [![Build Status](https://travis-ci.org/sarcilav/magick_round_corners.png)](https://travis-ci.org/sarcilav/magick_round_corners)
+ [![Code Climate](https://codeclimate.com/github/sarcilav/magick_round_corners.png)](https://codeclimate.com/github/sarcilav/magick_round_corners)
 
 This is a simple ruby gem that adds the instance method `round_corners`
 transformation to `Magick::Image` class.

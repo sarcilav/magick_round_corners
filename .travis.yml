@@ -1,4 +1,6 @@
-install: apt-get install freetype imagemagick libmagickcore-dev libmagickwand-dev
+virtualenv:
+  system_site_packages: true
+install: sudo apt-get install freetype imagemagick libmagickcore-dev libmagickwand-dev
 language: ruby
 script: "bundle exec rspec"
 rvm:

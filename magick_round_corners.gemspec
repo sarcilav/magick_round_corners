@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{A Ruby gem to easily transform images adding round corners.}
   s.license     = "MIT"
 
-  s.add_runtime_dependency 'rmagick'
+  s.add_dependency 'rmagick'
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'bundler'

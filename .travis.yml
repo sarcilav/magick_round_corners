@@ -1,6 +1,6 @@
 virtualenv:
   system_site_packages: true
-install: sudo apt-get install libfreetype6 libfreetype6-dev imagemagick libmagickcore-dev libmagickwand-dev
+before_install: sudo apt-get install libfreetype6 libfreetype6-dev imagemagick libmagickcore-dev libmagickwand-dev
 language: ruby
 script: "bundle exec rspec"
 rvm:
